@@ -1,8 +1,109 @@
 *{
-  font-family: sans-serif;
-  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1C1C1C;
 }
 
-a{
-  color: black;
+
+#container-nav{
+  display: flex; 
+  align-items: center;
+  margin: 1%;
 }
+
+#titulo-nav{
+  justify-content: right;
+  padding-right: 4%;
+}
+
+#titulo{
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.ul-nav{
+}
+
+.li-nav{
+  color: white;
+  
+}
+
+
+#titulo{
+
+}
+
+#navbarNavDropdown{
+  justify-content: space-around;
+}
+
+.quemSomos{
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4%;
+  color: #b60101;
+}
+
+.valores{
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #b60101;
+  margin: 1%;
+}
+
+.tituloValores{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.descricaoValores{
+  font-size: 1.2rem;
+  align-items: left;
+  color: whitesmoke;
+}
+
+.visao{
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #b60101;
+  margin: 2%;
+}
+
+.tituloVisao{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.descricaoVisao{
+  font-size: 1.2rem;
+  align-items: left;
+  color: whitesmoke;
+}
+
+.div-card{
+  margin-bottom: 10%;
+}
+
+.tituloCard{
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.textoCard{
+  color: #b60101;
+}
+
+

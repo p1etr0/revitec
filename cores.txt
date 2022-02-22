@@ -8,7 +8,6 @@ grey21	#363636	(54,54,54)
 
 DarkRed	#8B0000	(139,0,0)
 FireBrick	#B22222	(178,34,34)
-DarkRed	#8B0000	(139,0,0)
 
 WhiteSmoke	#F5F5F5	(245,245,245)
 Snow	#FFFAFA	(255,250,250)
