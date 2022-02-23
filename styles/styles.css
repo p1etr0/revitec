@@ -21,8 +21,6 @@
   color: white;
 }
 
-.ul-nav{
-}
 
 .li-nav{
   color: white;
@@ -31,79 +29,66 @@
 
 
 #titulo{
-
+  font-size: 2rem;
 }
 
-#navbarNavDropdown{
+
+.horarios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sobre{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8%;
+  text-align: center;
+  max-width: 100%;
+}
+
+.missao{
+  padding: 4%;
+}
+.visao{
+  padding: 4%;
+}
+.valores{
+  padding: 4%;
+}
+.proposito{
+  padding: 4%;
+}
+
+.button-modal{
+  width: 80%;
+  height: 80%;
+}
+
+.servicos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4%;
+}
+
+.card-deck{
+  display: flex;
+  flex-direction: row;
+  border: none;
   justify-content: space-around;
 }
 
-.quemSomos{
-  font-size: 2rem;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 4%;
-  color: #b60101;
+@media (max-width: 900px) {
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    justify-content: space-around;
+  }
 }
-
-.valores{
-  font-size: 2rem;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  color: #b60101;
-  margin: 1%;
+.card-text{
+  color: #8f98a0 !important;
 }
-
-.tituloValores{
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.descricaoValores{
-  font-size: 1.2rem;
-  align-items: left;
-  color: whitesmoke;
-}
-
-.visao{
-  font-size: 2rem;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  color: #b60101;
-  margin: 2%;
-}
-
-.tituloVisao{
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.descricaoVisao{
-  font-size: 1.2rem;
-  align-items: left;
-  color: whitesmoke;
-}
-
-.div-card{
-  margin-bottom: 10%;
-}
-
-.tituloCard{
-  font-size: 1.5rem;
-  color: whitesmoke;
-}
-
-.textoCard{
-  color: #b60101;
-}
-
-
