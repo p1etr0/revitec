@@ -18,10 +18,10 @@
     <div id= "container-nav" class="container .bg-dark text-white">
       <!-- TITULO DA EMPRESA-->
       <div class="titulo-nav">
-        <!-- <a class="navbar-brand" href="#">
-          <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-        </a> -->
-        <a id="titulo" class="navbar-brand" href="#">Revitec</a>
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logo.jpg" alt="" width="30" height="24">
+        </a>
+        <!-- <a id="titulo" class="navbar-brand" href="#">Revitec</a> -->
       </div>
       <div class="buttonNav">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +49,17 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  <div class="carousel">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./assets/carro2.png" class="w-100" alt="carro2">
+          <img src="./assets/carro14.jpg" class="w-100 h-100" alt="carro2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/caminhao.jpg" class="w-100 h-100" alt="carro2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carro2.png" class="w-100 h-100" alt="carro2">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -92,7 +98,7 @@
   <div class="servicos">
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary button-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-      CLIQUE E CONFIRA TODOS NOSSOS SERVIÇOS
+      CONFIRA TODOS OS NOSSOS SERVIÇOS
     </button>
 
     <!-- Modal -->
@@ -104,26 +110,49 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div id="horarios" class="horarios">
+            <div id="servicos-descricao" class="servicos-descricao">
               <div class="card-deck">
                 <div class="card">
                   <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
                   <div class="card-body">
-                    <h5 class="card-title">CHAPEAÇÃO</h5>
+                    <h5 class="card-title">ESPELHAMENTO</h5>
                     <p class="card-text">Serviço para chapeação</p>
                   </div>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
                   <div class="card-body">
-                    <h5 class="card-title">FUNILARIA</h5>
+                    <h5 class="card-title">RETOQUES</h5>
                     <p class="card-text">Serviço para FUNILARIA</p>
                   </div>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
                   <div class="card-body">
-                    <h5 class="card-title">VITRIFICAÇÃO</h5>
+                    <h5 class="card-title">CRISTALIZAÇÃO DE FAROIS</h5>
+                    <p class="card-text">Serviço para VITRIICAÇÃO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">ESPELHAMENTO</h5>
+                    <p class="card-text">Serviço para chapeação</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">RETOQUES</h5>
+                    <p class="card-text">Serviço para FUNILARIA</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">CRISTALIZAÇÃO DE FAROIS</h5>
                     <p class="card-text">Serviço para VITRIICAÇÃO</p>
                   </div>
                 </div>
@@ -132,13 +161,12 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary">Understood</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div id="horarios" class="horarios">
+  <div id="servicos-descricao" class="servicos-descricao">
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="./assets/carro1.png" loading="lazy" alt="Imagem de capa do card">
@@ -163,6 +191,44 @@
       </div>
     </div>
   </div>
+  <div class="especializacao">
+    <div class="auto">
+      <div class="image-auto">
+        <img class="w-100 h-100" src="./assets/carro14.jpg" loading="lazy" alt="Imagem do auto" style="border-radius: 8px;">
+      </div>
+      <div class="text-auto">
+        <p class="display-2">Linha Auto</p>
+        <p>Atendemos todas as segurados, estetica, funilária, revitalização de pintura, espelhamento e vitrificação.</p>
+      </div>
+    </div>
+    <div class="pesada">
+      <div class="text-pesada">
+        <p class="display-2">Linha Pesada</p>
+        <p>Reparação de Cabine, estetica, revitalização de pintura, espelhamento e pinturas em geral.</p>
+      </div>
+      <div class="image-pesada">
+        <img class="w-100 h-100" src="./assets/caminhao.jpg" loading="lazy" alt="Imagem do auto" style="border-radius: 8px;">
+      </div>
+    </div>
+  </div>
+  <div class="oficina">
+    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Revitec%20Repara%C3%A7%C3%A3o+(Revitec%20Repara%C3%A7%C3%A3o%20Automotiva)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/truck-gps/">Revitec</a></iframe></div>
+  </div>
+  <div class="projetos">
+    <div class="antes-depois">
+      <div class="titulo-antes-depois">
+        <p class="display-4">Antes e Depois</p>
+      </div>
+      <div class="grid-antes-depois">
+        <div class="first-left-antes-depois">LEFT LEFT</div>
+        <div class="first-right-antes-depois">RIGHT RIGHT</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h1>teste</h1>
+  </footer>
+
 </div>
 
 
