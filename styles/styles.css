@@ -1,14 +1,18 @@
 *{
   font-family: 'Roboto', sans-serif;
-  background-color: #1C1C1C;
   border: none;
+}
+
+body{
+  background-color: #1C1C1C;
+
 }
 
 
 #container-nav{
   display: flex; 
   align-items: center;
-  margin: 1%;
+  text-align: center;
 }
 
 #titulo-nav{
@@ -166,4 +170,109 @@
   justify-content: space-around;
   flex-direction: row;
   padding: 4%;
+}
+
+.faleConosco{
+  padding-top: 4%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+}
+
+.tituloFaleConosco{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#inputwpp{
+  border-radius: 8px;
+  padding: 1%;
+}
+
+#inputwpp:focus{
+  border: none;
+  border-color: #1C1C1C;
+}
+
+#submit{
+  border-radius: 8px;
+  margin-left: 1%;
+}
+
+.logowpp{
+  width: 100%;
+  height: 100%;
+}
+
+.footer{
+  padding: 2%;
+  background-color: whitesmoke;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  color: #1C1C1C;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.redesSociais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.infos{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.telefone{
+  padding-bottom: 4%;
+  display: flex;
+}
+
+.enderecochapeco{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+
+.email{
+  display: flex;
+}
+
+#icon-text{
+  text-align: center;
+  align-items: center;
+}
+
+#mapscco{
+  font-size: 85%;
+}
+
+#mapsxaxim{
+  font-size: 85%;
+}
+
+.logo_footer{
+  border: #1C1C1C;
 }
