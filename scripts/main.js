@@ -14,7 +14,8 @@ function enviarMensagem(str){
 }
 
 document.getElementById("submit").onclick = function(e) {
-  let inputwpp = document.getElementById("inputwpp").value
-  let urlFormatada = "https://api.whatsapp.com/send?phone=55499989164766&text=" + toFormUrlEncoded(inputwpp)
+  let inputwpp = document.getElementById("inputwpp").value;
+  // let urlFormatada = "https://api.whatsapp.com/send?phone=5549989164766&text=" + toFormUrlEncoded(inputwpp)
+  let urlFormatada = `https://api.whatsapp.com/send?phone=5549989164766&text=${toFormUrlEncoded(inputwpp)}`
   enviarMensagem(urlFormatada);
 }

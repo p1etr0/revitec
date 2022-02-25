@@ -34,19 +34,19 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ul-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Quem Somos</a>
+              <a class="nav-link" aria-current="page" href="#sobre">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Serviços</a>
+              <a class="nav-link" href="#servicos">Serviços</a>
             </li>
-            <li  class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="#especializacao">Especialização</a>
+            </li>
+            <!-- <li  class="nav-item">
               <a class="nav-link" href="#">Projetos</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Especialização</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#faleConosco">Contato</a>
             </li>
           </ul>
         </div>
@@ -75,7 +75,7 @@
         </button>
       </div>
     </div>
-    <div class="sobre">
+    <div id="sobre" class="sobre">
       <div class="sobre1">
         <div class="missao">
           <h3 class="display-4" >Missão</h3>
@@ -97,8 +97,23 @@
         </div>
       </div>
     </div>
+    <!-- <div class="projetos">
+      <div class="antes-depois">
+        <div class="titulo-antes-depois">
+          <p class="display-4">Antes e Depois</p>
+        </div>
+        <div class="grid-antes-depois">
+          <div class="first-left-antes-depois">
+            <img class="w-100 h-100" src="./assets/frenteAntes.jpg" loading="lazy" alt="Imagem da frente" style="border-radius: 8px;">
+          </div>
+          <div class="first-right-antes-depois">
+            <img class="w-100 h-100" src="./assets/frenteDepois.png" loading="lazy" alt="Imagem da frente" style="border-radius: 8px;">
+          </div>
+        </div>
+      </div>
+    </div> -->
     <!-- <div class="modal-dialog modal-xl">TESTE</div> -->
-    <div class="servicos">
+    <div id="servicos" class="servicos">
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary button-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         CONFIRA TODOS OS NOSSOS SERVIÇOS
@@ -194,7 +209,7 @@
         </div>
       </div>
     </div>
-    <div class="especializacao">
+    <div id="especializacao" class="especializacao">
       <div class="auto">
         <div class="image-auto">
           <img class="w-100 h-100" src="./assets/carro14.jpg" loading="lazy" alt="Imagem do auto" style="border-radius: 8px;">
@@ -217,27 +232,13 @@
     <div class="oficina">
       <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Revitec%20Repara%C3%A7%C3%A3o+(Revitec%20Repara%C3%A7%C3%A3o%20Automotiva)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/truck-gps/">Revitec</a></iframe></div>
     </div>
-    <div class="projetos">
-      <div class="antes-depois">
-        <div class="titulo-antes-depois">
-          <p class="display-4">Antes e Depois</p>
-        </div>
-        <div class="grid-antes-depois">
-          <div class="first-left-antes-depois">
-            <img class="w-100 h-100" src="./assets/frenteAntes.jpg" loading="lazy" alt="Imagem da frente" style="border-radius: 8px;">
-          </div>
-          <div class="first-right-antes-depois">
-            <img class="w-100 h-100" src="./assets/frenteDepois.png" loading="lazy" alt="Imagem da frente" style="border-radius: 8px;">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="faleConosco">
+
+    <div id="faleConosco" class="faleConosco">
       <div class="tituloFaleConosco">
-        <h3 class="display-4">FALE CONOSCO</h3>
-        <img class="logo_footer" src="./assets/logowpp.svg" alt="WPP" style="width: 5%;">
+        <h3 class="display-4" style="padding-right: 2%;">Fale Conosco</h3>
+        <img id="logo-faleConosco" class="logo_footer" src="./assets/logowpp.svg" alt="WPP">
       </div>
-      <div class="input-group input-group-lg">
+      <div class="input-group">
         <input id="inputwpp" type="text" class="form-control" aria-label="Exemplo do tamanho do input" aria-describedby="inputGroup-sizing-lg" placeholder="Escreva sua mensagem">
         <button id="submit" class="btn btn-outline-light" href="" role="button" type="submit" value="Enviar">        
           ENVIAR
@@ -247,8 +248,11 @@
   </div>
 </div>
 <footer class="footer">
+  <section class="logo">
+    <img class="" src="./assets/logo.png" alt="INSTA">
+  </section>
   <section class="redesSociais">
-    <h3>REDES SOCIAIS</h3>
+    <h3 id="tituloRedes">REDES SOCIAIS</h3>
     <div class="iconesRedes">
           <!-- Instagram -->
     <a class="btn btn-outline-dark m-1" href="https://www.instagram.com/automotivarevitecreparacao/" role="button" target="_blank">
@@ -264,12 +268,12 @@
   </section>
   <section class="infos">
     <div class="telefone">   
-      <img class="logo_footer" src="./assets/logowpp.svg" alt="WPP">
+      <img id="logoFooter" class="logo-footer" src="./assets/logowpp.svg" alt="WPP">
       (49) 98916-4766
     </div>
     <div class="enderecochapeco">
-      <img class="" src="./assets/logocasapreta.svg" alt="CASA">
-      R. Mal. Deodoro, 977 d - Maria Goretti, Chapecó - SC, 89801-061
+      <img id="logoEndereco" class="" src="./assets/logocasapreta.svg" alt="CASA">
+      R. Mal. Deodoro, 977 d - Maria Goretti, Chapecó - SC
     </div>
     <button id="mapscco" type="button" class="btn btn-outline-dark" onclick="goToLocationRevitec()">VER LOCALIZAÇÃO</button>
   </section>

@@ -11,3 +11,10 @@ FireBrick	#B22222	(178,34,34)
 
 WhiteSmoke	#F5F5F5	(245,245,245)
 Snow	#FFFAFA	(255,250,250)
+
+
+
+mensagem wpp
+hover footer vermelho
+responsividade
+navbar direcionando
